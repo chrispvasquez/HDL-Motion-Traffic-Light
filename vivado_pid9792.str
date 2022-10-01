@@ -1,0 +1,176 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2700185 on Thu Oct 24 18:46:05 MDT 2019
+IP Build: 2699827 on Thu Oct 24 21:16:38 MDT 2019
+
+Process ID (PID): 9792
+License: Customer
+
+Current time: 	Thu Dec 05 10:30:35 CST 2019
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 3840x2160
+Screen resolution (DPI): 250
+Available screens: 1
+Available disk space: 337 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=30
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	chris
+User home directory: C:/Users/chris
+User working directory: C:/Users/chris/OneDrive/Desktop/DigLog Project CV
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/chris/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/chris/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/chris/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/chris/OneDrive/Desktop/DigLog Project CV/vivado.log
+Vivado journal file location: 	C:/Users/chris/OneDrive/Desktop/DigLog Project CV/vivado.jou
+Engine tmp dir: 	C:/Users/chris/OneDrive/Desktop/DigLog Project CV/.Xil/Vivado-9792-Chris-Laptop
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	200 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 743 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 115 MB (+117893kb) [00:00:09]
+// [Engine Memory]: 632 MB (+511248kb) [00:00:09]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\chris\OneDrive\Desktop\DigLog Project CV\project_1.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/chris/OneDrive/Desktop/DigLog Project CV/project_1.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 84 MB. Current time: 12/5/19, 10:30:37 AM CST
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/chris/OneDrive/Desktop/DigLog Project CV/project_1.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 886 MB (+233126kb) [00:00:15]
+// [GUI Memory]: 132 MB (+12088kb) [00:00:16]
+// [GUI Memory]: 141 MB (+2225kb) [00:00:18]
+// WARNING: HEventQueue.dispatchEvent() is taking  4177 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 946.113 ; gain = 235.836 
+// Project name: project_1; location: C:/Users/chris/OneDrive/Desktop/DigLog Project CV; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (main_verilog.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, controller_CV (main_verilog.v)]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, controller_CV (main_verilog.v)]", 1, false, false, false, false, false, true); // B (F, cr) - Double Click
+// [Engine Memory]: 939 MB (+9281kb) [00:00:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 948 MB. GUI used memory: 91 MB. Current time: 12/5/19, 10:30:57 AM CST
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ai (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// I (cr): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2692 ms.
+expandTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 8); // L (E, I)
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor, Fonts and Colors]", 12, false); // L (E, I)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (I)
+// HMemoryUtils.trashcanNow. Engine heap size: 987 MB. GUI used memory: 108 MB. Current time: 12/5/19, 10:31:17 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  111469 ms.
+// [Engine Memory]: 992 MB (+5633kb) [00:03:08]
+// Elapsed time: 146 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// [GUI Memory]: 149 MB (+1600kb) [00:03:19]
+dismissDialog("Settings"); // I (cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints_CV.xdc]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints_CV.xdc]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // af (cr)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ai (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// I (cr): Settings: addNotify
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// [GUI Memory]: 162 MB (+5300kb) [00:03:36]
+dismissDialog("Settings"); // I (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,044 MB. GUI used memory: 109 MB. Current time: 12/5/19, 10:34:03 AM CST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (F, cr)
+// [Engine Memory]: 1,044 MB (+3151kb) [00:03:41]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, controller_CV (main_verilog.v)]", 8, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, controller_CV (main_verilog.v)]", 8, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 32 seconds
+selectCodeEditor("main_verilog.v", 390, 603); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench_CV (testbench.v)]", 7, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, testbench_CV (testbench.v)]", 7, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // af (cr)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ai (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// I (cr): Settings: addNotify
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (I)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (I)
+selectCodeEditor("testbench.v", 1511, 629); // ch (w, cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  15284 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 15763 ms. Increasing delay to 3000 ms.
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+dismissDialog("Settings"); // I (cr)

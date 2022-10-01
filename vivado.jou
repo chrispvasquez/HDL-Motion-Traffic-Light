@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.1 (64-bit)
+# SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
+# IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
+# Start of session at: Thu Dec  5 11:31:02 2019
+# Process ID: 22800
+# Current directory: D:/DigLog Project CV
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent82880 D:\DigLog Project CV\project_1.xpr
+# Log file: D:/DigLog Project CV/vivado.log
+# Journal file: D:/DigLog Project CV\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/DigLog Project CV/project_1.xpr}
+update_compile_order -fileset sources_1
+save_project_as project_3 {D:/DigLog Project CV/project_3} -force

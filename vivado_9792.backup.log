@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Thu Dec  5 10:30:14 2019
+# Process ID: 9792
+# Current directory: C:/Users/chris/OneDrive/Desktop/DigLog Project CV
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21372 C:\Users\chris\OneDrive\Desktop\DigLog Project CV\project_1.xpr
+# Log file: C:/Users/chris/OneDrive/Desktop/DigLog Project CV/vivado.log
+# Journal file: C:/Users/chris/OneDrive/Desktop/DigLog Project CV\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/chris/OneDrive/Desktop/DigLog Project CV/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 946.113 ; gain = 235.836
+update_compile_order -fileset sources_1
